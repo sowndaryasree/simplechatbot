@@ -1,0 +1,75 @@
+{
+ "intents":[
+  {
+   "tag":"greeting",
+   "patterns":["Hi","Hello","Hey","Good morning","Good evening","Is anyone there"],
+   "responses":["Hello!","Hi there!","Hey! How can I help you?","Nice to meet you!"]
+  },
+
+  {
+   "tag":"goodbye",
+   "patterns":["Bye","Goodbye","See you later","I am leaving","Catch you later"],
+   "responses":["Goodbye!","See you later!","Have a nice day!"]
+  },
+
+  {
+   "tag":"thanks",
+   "patterns":["Thanks","Thank you","That's helpful","Thanks a lot"],
+   "responses":["You're welcome!","Happy to help!","Anytime!"]
+  },
+
+  {
+   "tag":"name",
+   "patterns":["What is your name","Who are you","Tell me your name"],
+   "responses":["I am a simple AI chatbot.","You can call me ChatBot.","I am your virtual assistant."]
+  },
+
+  {
+   "tag":"college",
+   "patterns":["Which college is this","Tell me about the college","What college is this"],
+   "responses":["This chatbot was created for a college AI lab experiment."]
+  },
+
+  {
+   "tag":"course",
+   "patterns":["What course are you studying","Which department","What is AIML"],
+   "responses":["AIML stands for Artificial Intelligence and Machine Learning."]
+  },
+
+  {
+   "tag":"ai",
+   "patterns":["What is AI","Explain artificial intelligence","Define AI"],
+   "responses":[
+    "Artificial Intelligence is the simulation of human intelligence by machines.",
+    "AI allows machines to learn, reason and make decisions."
+   ]
+  },
+
+  {
+   "tag":"chatbot",
+   "patterns":["What is a chatbot","Explain chatbot","Define chatbot"],
+   "responses":[
+    "A chatbot is a program that simulates human conversation.",
+    "Chatbots interact with users using text or voice."
+   ]
+  },
+
+  {
+   "tag":"python",
+   "patterns":["What is python","Explain python","Why python is used"],
+   "responses":[
+    "Python is a popular programming language used for AI and data science.",
+    "Python is simple, powerful and widely used in machine learning."
+   ]
+  },
+
+  {
+   "tag":"help",
+   "patterns":["Can you help me","I need help","Help"],
+   "responses":[
+    "Sure! I will try my best to help you.",
+    "Tell me your question."
+   ]
+  }
+ ]
+}
